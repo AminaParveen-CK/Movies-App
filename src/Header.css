@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+.navbarr{
+align-items: center;
+padding: 1rem 0rem;
+background-color: rgb(24, 22, 22);
+}
+.links {
+    text-decoration: none !important;
+    
+}
+.navlink{
+    color: rgb(201, 241, 249) !important;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    /* color: rgb(220, 220, 110)!important; */
+   
+   
+}
+.navlink:hover{
+    /* background-color: rgb(2, 74, 89) !important; */
+    color: white;
+    /* background-color: rgb(201, 241, 249) !important; */
+    border-bottom: 2px solid rgb(201, 241, 249);
+    /* color: black !important; */
+    border-radius: 10px;
+}
+.brand{
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(201, 241, 249) !important;
+    /* color: rgb(220, 220, 110)!important; */
+}
+.search-control{
+    width: 80%;
+    background-color: black;
+    border-color: rgb(201, 241, 249);
+    color: rgb(201, 241, 249) !important;
+    padding: 10px 0px 10px 35px 
+  
+}
+.search-control::placeholder{
+    color: rgb(201, 241, 249) !important;
+}
+.search-control:hover,
+.search-control:active,
+.search-control:focus{
+    background-color: black;
+    border-color: rgb(201, 241, 249);
+    color: rgb(201, 241, 249) !important;
+}
+.searchbtn{
+    /* background: linear-gradient(40deg, rgb(21, 67, 76),rgb(2, 74, 89)); */
+    background-color: rgb(2, 74, 89);
+    color: rgb(201, 241, 249);
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    border: 1px solid rgb(201, 241, 249) ;
+    border-radius: 15px;
+}
+
+/* fonts  */

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Parkinsans:wght@300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  text-align: center;
+ 
+}
+/* .popular{
+  margin: auto;
+  
+} */
+.playbutton{
+  background-color: rgb(2, 74, 89) !important;
+  border: 1px solid rgb(34, 34, 34);
+  color: rgb(235, 245, 246) !important;
+  border-radius: 15px;
+}
+.playbutton:hover{
+  background-color: rgb(34, 34, 34) !important;
+  color: rgb(201, 241, 249) !important;
+  border: 1px solid rgb(201, 241, 249) ;
+  border-radius: 15px;
+}
+.banner h1{
+width: 50%;
+color: rgb(182, 235, 246);
+padding: 10px 100px;
+text-align: left;
+padding-top: 10%;
+font-family: "Parkinsans", sans-serif;
+font-size: 3vw;
+font-style: normal;
+justify-content: center;
+display: flex;
+}
+.banner p{
+width: 50%;
+height: 50%;
+color: rgb(201, 241, 249);
+padding: 10px 100px;
+text-align: left;
+font-size: 1.5vw;
+font-family: "Parkinsans", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+}
+.moviespage{
+background-color: black;
+width: 100%;
+padding-left: 3% ;
+margin-left: -1%;
+margin: auto;
+}
+.moviesheading{
+  color: rgb(201, 241, 249) !important;
+  padding: 20px 0px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+.cards{  
+border: 0.5px solid rgb(201, 241, 249);
+margin: 2% auto;
+}
+.card-img{
+  border-radius: 2rem;
+  width: 100%;
+}
