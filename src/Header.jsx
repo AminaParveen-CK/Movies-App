@@ -13,34 +13,14 @@ import { samplecontext } from './App';
 import axios from 'axios';
 import { FaSearch } from "react-icons/fa";
 function Header() {
-  const {movieslist,
-    setmovieslist,
-    searchValue,
-    setsearchValue,
-    searchItem,
+  const {
     setsearchItem,
-    url1,
-    seturl1,
-    filteredmovies,
-    setfilteredmovies,
     searchShow,
-    setsearchShow
     } =useContext(samplecontext);
 
   const searching=(e)=>{
     setsearchItem(e.target.value)
   };
-  // if(searchItem.length===0){
-  //   setfilteredmovies(movieslist);
-  // }
-
-// const submitSearch=(e)=>{
-//   e.preventDefault();
-//   setsearchValue(searchItem);
-//   if(searchItem.length===0){
-//     setfilteredmovies([]);
-//   }
-// };
   return (
     <Navbar expand="lg" className="navbarr " >
       <Container>

@@ -17,14 +17,9 @@ const Movies = ({url,heading}) => {
     setidofmovie,
     Show,
     setShow,
-    searchValue,
-    setsearchValue,
-    url1,
-    seturl1,
     searchItem,
     filteredmovies,
     setfilteredmovies,
-    searchShow,
     setsearchShow
   } =useContext(samplecontext);
 
