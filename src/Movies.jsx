@@ -1,6 +1,5 @@
 import axios from 'axios'
 import React, { useContext } from 'react'
-import { useState } from 'react'
 import { useEffect } from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -13,9 +12,7 @@ const Movies = ({url,heading}) => {
   // console.log(url);
   const {movieslist,
     setmovieslist,
-    idofmovie,
     setidofmovie,
-    Show,
     setShow,
     searchItem,
     filteredmovies,

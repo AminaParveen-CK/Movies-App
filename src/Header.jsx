@@ -7,10 +7,8 @@ import { FaRegPlayCircle } from "react-icons/fa";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import { useContext, useEffect, useState } from 'react';
+import { useContext } from 'react';
 import { samplecontext } from './App';
-import axios from 'axios';
 import { FaSearch } from "react-icons/fa";
 function Header() {
   const {

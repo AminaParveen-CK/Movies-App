@@ -9,8 +9,8 @@ const Details = () => {
   const {movieslist,idofmovie ,setShow} =useContext(samplecontext);
 
 useEffect(() => {
-    const filteredMovie = movieslist.filter((movie) => 
-    movie.id === idofmovie)[0] ;
+    const filteredMovie = movieslist?.filter((movie) => 
+    movie?.id === idofmovie)[0] ;
     console.log(filteredMovie);
     setmovieDetails(filteredMovie); 
     setShow(false); 

@@ -5,9 +5,8 @@ import Movies from './Movies';
 import { comedyMovies, latestMovies, popularMovies } from './Url';
 import Banner from './Banner';
 import Details from './Details';
-import { createContext, useEffect } from 'react';
+import { createContext} from 'react';
 import { useState } from 'react';
-import axios from 'axios';
 const samplecontext = createContext();
 
 function App() {
