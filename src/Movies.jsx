@@ -27,7 +27,7 @@ useEffect(()=>{
     setShow(true)
     setsearchShow(true)
   });
-},[url]);
+},[url,setShow,setfilteredmovies,setmovieslist,setsearchShow]);
 
 console.log(searchItem);
 
@@ -42,7 +42,7 @@ if(searchItem.length===0){
     )
   );
 }
-}, [movieslist,searchItem])
+}, [movieslist,searchItem,setfilteredmovies])
 
  const get_id=(movie_id)=>{
   // console.log(movie_id);

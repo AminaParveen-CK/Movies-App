@@ -14,7 +14,7 @@ useEffect(() => {
     console.log(filteredMovie);
     setmovieDetails(filteredMovie); 
     setShow(false); 
-}, [idofmovie,movieslist]);
+}, [idofmovie,movieslist,setShow]);
  console.log(movieDetails);
 
   return (

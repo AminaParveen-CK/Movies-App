@@ -13,7 +13,7 @@ const Banner = () => {
    setrandomindex( Math.floor(Math.random() * response.data.results.length))
    setShow(true)
    })
-    },[])
+    },[randomIndex,setShow])
 
   return ( 
     <div className='banner' style={{backgroundSize:'100% 100%',backgroundRepeat:'no-repeat',  backgroundImage: `url(${
