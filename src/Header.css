@@ -14,9 +14,10 @@ background-color: rgb(24, 22, 22);
     font-family: "Faculty Glyphic", sans-serif;
     font-weight: bold;
     font-style: normal;
-    /* color: rgb(220, 220, 110)!important; */
-   
-   
+    /* color: rgb(220, 220, 110)!important; */  
+}
+.navbar-toggler {
+    background: rgb(201, 241, 249) ;
 }
 .navlink:hover{
     /* background-color: rgb(2, 74, 89) !important; */
