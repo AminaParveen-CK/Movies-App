@@ -16,7 +16,6 @@
     margin: auto;
 }
 .details h1{
-    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,10 +49,7 @@
 .details button{
     margin: 2.5%;
     background: none;
-    /* background-color: rgb(176, 240, 253) ; */
-    /* background-color: rgb(34, 34, 34); */
     color: rgb(201, 241, 249) !important;
-    /* color: black; */
     border: 1px solid rgb(201, 241, 249) ;
     border-radius: 15px;
     padding: 2% 6%;
@@ -64,4 +60,19 @@
     background-color:  rgb(181, 238, 250) !important;
     border: 1px solid rgb(34, 34, 34);
     color: black!important;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .details h1{
+    font-size: 1.7rem;
+    }
+    .details p{
+        font-size: 0.9rem;
+    }
+    .details h6{
+        font-size: 0.9rem;
+    }
+    .details button{
+        font-size: 0.6rem;
+    }
   }
